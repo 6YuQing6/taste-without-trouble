@@ -15,7 +15,7 @@ export default function ResponsiveAppBar() {
   };
 
   const pagesText = ["Recipes", "About Us"];
-  const pagesLink = ["/recipes", "/about"];
+  const pagesLink = ["recipes", "about"];
 
   const Pages = (
     <Box
