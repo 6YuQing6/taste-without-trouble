@@ -42,3 +42,51 @@ export const theme = createTheme({
     },
   },
 });
+
+export const cardTheme = createTheme(
+  {
+    components: {
+      MuiCard: {
+        variants: [
+          {
+            props: { variant: "outlined" },
+            style: {
+              borderWidth: "1px",
+              borderColor: "rgba(0, 0, 0, 0.12)",
+              boxShadow: "none",
+            },
+          },
+        ],
+        defaultProps: {
+          raised: false,
+        },
+      },
+      MuiCardContent: {
+        styleOverrides: {
+          root: {
+            fontFamily: ["sans-serif", "Amazon Ember"],
+            padding: "0px",
+            "&:last-child": {
+              paddingBottom: "0px",
+            },
+          },
+        },
+      },
+      MuiTypography: {
+        variants: [
+          {
+            props: { component: "h1" },
+            style: {
+              fontFamily: ["sans-serif", "Amazon Ember"],
+              fontSize: 28,
+              fontWeight: 400,
+              lineHeight: 1.2,
+              color: "text.primary",
+            },
+          },
+        ],
+      },
+    },
+  },
+  theme
+);

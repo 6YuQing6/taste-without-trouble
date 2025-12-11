@@ -26,7 +26,6 @@ export default function ResponsiveAppBar() {
         justifyContent: { xs: "center", sm: "flex-start" },
       }}>
       {pagesText.map((page, index) => (
-        // <>
         <Button
           variant="text"
           color="inherit"
@@ -36,8 +35,6 @@ export default function ResponsiveAppBar() {
           sx={{ display: "block" }}>
           {page}
         </Button>
-        // <Link to={pagesLink[index]} key={`link-${page}`} />
-        // </>
       ))}
     </Box>
   );
