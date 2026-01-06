@@ -1,6 +1,10 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import { auth } from "../firebase/firebase";
-import { onAuthStateChanged } from "firebase/auth";
+import {
+  getRedirectResult,
+  onAuthStateChanged,
+  type User,
+} from "firebase/auth";
 
 interface AuthContextType {
   currentUser: unknown;
@@ -25,7 +29,22 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, initializeUser);
+    getRedirectResult(auth).catch(console.error);
+    const unsubscribe = onAuthStateChanged(auth, (user: User | null) => {
+      if (user) {
+        console.log("Logged in user:", {
+          uid: user.uid,
+          email: user.email,
+          displayName: user.displayName,
+          photoURL: user.photoURL,
+          providerId: user.providerData[0]?.providerId,
+        });
+      } else {
+        console.log("User signed out");
+      }
+      initializeUser(user);
+    });
+
     return unsubscribe;
   }, []);
 
@@ -33,9 +52,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     if (user) {
       setCurrentUser({ ...user });
       setUserLoggedIn(true);
+      localStorage.setItem("user", JSON.stringify(user));
     } else {
       setCurrentUser(null);
       setUserLoggedIn(false);
+      localStorage.removeItem("user");
     }
     setLoading(false);
   }

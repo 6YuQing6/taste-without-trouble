@@ -5,8 +5,8 @@ import {
   sendPasswordResetEmail,
   sendEmailVerification,
   updatePassword,
-  signInWithPopup,
   GoogleAuthProvider,
+  signInWithRedirect,
 } from "firebase/auth";
 
 export const doCreateUserWithEmailAndPassword = async (
@@ -25,13 +25,12 @@ export const doSignInWithEmailAndPassword = (
 
 export const doSignInWithGoogle = async () => {
   const provider = new GoogleAuthProvider();
-  const result = await signInWithPopup(auth, provider);
-  const user = result.user;
-
-  // add user to firestore
+  await signInWithRedirect(auth, provider);
 };
 
 export const doSignOut = () => {
+  localStorage.removeItem("user");
+  console.log("Logging Out");
   return auth.signOut();
 };
 
