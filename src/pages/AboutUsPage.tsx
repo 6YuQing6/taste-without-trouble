@@ -1,5 +1,5 @@
-import { Box, Typography } from "@mui/material";
-// import { Typography } from "@mui/material";
+import { Box } from "@mui/material";
+// import { p } from "@mui/material";
 
 /**
  *
@@ -7,14 +7,9 @@ import { Box, Typography } from "@mui/material";
  */
 function AboutUsPage() {
   return (
-    <Box
-      textAlign="left"
-      sx={{ display: "grid", gridAutoColumns: "1fr", gap: 1 }}>
-      <Typography variant="h4" textAlign="center">
-        My name is Melanie Reisner-Earl
-      </Typography>
-
-      <Typography>
+    <Box textAlign="left">
+      <h1>My name is Melanie Reisner-Earl</h1>
+      <div>
         I'm a biology student based in Pleasanton, CA, with a deep passion for
         the gut mind connection and gastrointestinal disorders. I began this
         mission in 2025 to spread awareness about GI conditions and how they
@@ -26,8 +21,8 @@ function AboutUsPage() {
         constipation, and dealing with throat and tongue swelling after eating
         foods like eggs and dairy. I knew something more was going on, but I
         didn't have the answers.
-      </Typography>
-      <Typography>
+      </div>
+      <div>
         In 2023, my life took a frightening turn. A mass of food became lodged
         in my throat, tearing my esophagus. I nearly lost my life as my airway
         began to close from the fluid buildup caused by choking. During my
@@ -41,8 +36,8 @@ function AboutUsPage() {
         had. Food, which used to bring comfort, became the enemy. I remembered
         what the Stanford doctor had said, and I knew I needed to get an
         endoscopy—there had to be more to the story than just “IBS.”
-      </Typography>
-      <Typography>
+      </div>
+      <div>
         My doctor was reluctant and continued insisting that my symptoms were
         nothing serious, but I kept advocating for myself. Eventually, I got the
         endoscopy I had been fighting for. The results revealed eosinophilic
@@ -57,8 +52,8 @@ function AboutUsPage() {
         But even though I was physically healing, the emotional side was
         difficult. The restrictions made eating isolating and frustrating—I
         couldn't enjoy the foods I grew up loving.
-      </Typography>
-      <Typography>
+      </div>
+      <div>
         Over time, I realized many people with GI disorders face similar
         struggles. The overlap between gut conditions and eating disorders is
         more common than people realize, and it’s something that needs to be
@@ -69,7 +64,7 @@ function AboutUsPage() {
         disordered eating. Through sharing my story, I hope to inspire others to
         take their gut health seriously, to advocate for themselves, and to
         remember that healing—both physical and emotional—is possible.
-      </Typography>
+      </div>
     </Box>
   );
 }

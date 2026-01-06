@@ -1,21 +1,38 @@
 import type {} from "@mui/lab/themeAugmentation";
 import { createTheme } from "@mui/material";
 
+const color = {
+  DARKSPRUCE: "#004b23",
+  SEAGREEN: "#2B9348",
+  GREEN: "#006400",
+  BRIGHTFERN: "#38b000",
+  BRIGHTLEMON: "#aacc00",
+  YELLOW: "#E7F9A9",
+  COFFEE: "#230C0F",
+};
+
 export const theme = createTheme({
   // https://mui.com/material-ui/customization/palette/
   palette: {
     primary: {
-      main: "rgb(44,47,38)",
-      contrastText: "rgb(238,222,188)",
+      main: color.DARKSPRUCE,
+      contrastText: color.YELLOW,
     },
     secondary: {
-      main: "rgb(153, 44, 22)",
-      light: "rgba(222, 64, 32, 1)",
-      contrastText: "rgb(238,222,188)",
+      main: color.BRIGHTLEMON,
+      contrastText: color.COFFEE,
     },
+  },
+  typography: {
+    fontFamily: "Lato",
+    fontWeightRegular: 500,
+    fontWeightMedium: 600,
   },
   components: {
     MuiButton: {
+      defaultProps: {
+        disableRipple: true, // Disable ripple for all buttons
+      },
       styleOverrides: {
         root: {
           borderRadius: 8, // Custom border radius for all buttons
@@ -25,14 +42,16 @@ export const theme = createTheme({
         {
           props: { variant: "text" },
           style: {
-            color: "rgb(238,222,188)",
+            color: color.YELLOW,
             "&:hover": {
-              backgroundColor: "rgba(255, 253, 253, 0)",
+              backgroundColor: color.DARKSPRUCE,
+              color: color.BRIGHTLEMON,
               border: "none",
               outline: "none",
             },
             "&:active": {
               backgroundColor: "none",
+              color: color.BRIGHTLEMON,
               border: "none",
               outline: `none`,
             },

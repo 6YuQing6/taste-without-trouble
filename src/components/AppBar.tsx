@@ -21,34 +21,30 @@ export default function ResponsiveAppBar() {
 
   const Offset = styled("div")(({ theme }) => theme.mixins.toolbar);
 
+  const Logo = (
+    <Button variant="text" color="inherit" href="/taste-without-trouble/">
+      <FlatwareIcon
+        sx={{
+          marginRight: "0.3rem",
+          display: { xs: "flex", sm: "flex" },
+        }}
+      />
+      <Typography
+        sx={{
+          display: { sm: "flex" },
+          fontWeight: 700,
+          color: "inherit",
+        }}>
+        Taste Without Trouble
+      </Typography>
+    </Button>
+  );
+
   return (
     <React.Fragment>
-      <AppBar position="fixed">
-        <Toolbar>
-          <Button variant="text" color="inherit" href="/taste-without-trouble/">
-            <FlatwareIcon
-              sx={{
-                marginRight: "0.3rem",
-                display: { xs: "flex", sm: "flex" },
-              }}
-            />
-            <Typography
-              sx={{
-                display: { xs: "none", sm: "flex" },
-                fontWeight: 700,
-                color: "inherit",
-              }}>
-              Taste Without Trouble
-            </Typography>
-            <Typography
-              sx={{
-                display: { xs: "flex", sm: "none" },
-                fontWeight: 700,
-                color: "inherit",
-              }}>
-              TWT
-            </Typography>
-          </Button>
+      <AppBar position="fixed" elevation={0}>
+        <Toolbar sx={{ paddingBlockStart: "1rem" }}>
+          {Logo}
 
           <Box
             sx={{
