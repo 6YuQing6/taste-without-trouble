@@ -16,12 +16,14 @@ function MarkdownPage() {
   }, [filename]);
 
   return (
-    <ReactMarkdown
-      components={{
-        img: CustomImage,
-      }}>
-      {markdownContent}
-    </ReactMarkdown>
+    <div className="markdown">
+      <ReactMarkdown
+        components={{
+          img: CustomImage,
+        }}>
+        {markdownContent}
+      </ReactMarkdown>
+    </div>
   );
 }
 

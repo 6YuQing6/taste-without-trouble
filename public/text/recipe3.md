@@ -84,9 +84,7 @@ When creating allergen-free treats, it is essential to choose ingredients that a
 
 **Instructions for Pie Filling**:
 
-<div className="image-grid">
 ![](public/images/recipe3.Carmel_Apple_Pie_Recipe/image1.png)![](public/images/recipe3.Carmel_Apple_Pie_Recipe/image3.png)
-</div>
 
 7. Peel and core a total of six apples (three granny smith and three honeycrisp). Cut into quarters. If you do not have an apple corer. Peel and core manually, cut the apple into thin slices and then into halves. Transfer into a medium-large bowl, and start an initial dousing of lemon juice to prevent too much oxidation.
 8. In a small bowl mix together the seasonings and dry ingredients: brown sugar,cinnamon, all spice, nutmeg, ginger, and cardamom. Mix until uniform and put to the side.
