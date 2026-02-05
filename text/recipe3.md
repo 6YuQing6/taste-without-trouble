@@ -1,6 +1,6 @@
 ## **Carmel Apple Pie Recipe**
 
-![image title](public/images/recipe3.Carmel_Apple_Pie_Recipe/image2.png)
+![image title](./images/recipe3.Carmel_Apple_Pie_Recipe/image2.png)
 
 Pie crust has always been my favorite part of the pie. The flavor, the warmth, that first bite—it’s what makes pie feel special to me. However, living with dysphagia can make traditional pie crusts difficult to enjoy, especially when they are crumbly, dry, or too firm to swallow comfortably.
 
@@ -72,8 +72,8 @@ When creating allergen-free treats, it is essential to choose ingredients that a
 
 **Instructions for Pie Crust**:
 
-![](public/images/recipe3.Carmel_Apple_Pie_Recipe/image4.png)![](public/images/recipe3.Carmel_Apple_Pie_Recipe/image5.png)
-![](public/images/recipe3.Carmel_Apple_Pie_Recipe/image8.png)
+![](./images/recipe3.Carmel_Apple_Pie_Recipe/image4.png)![](./images/recipe3.Carmel_Apple_Pie_Recipe/image5.png)
+![](./images/recipe3.Carmel_Apple_Pie_Recipe/image8.png)
 
 1. Preheat the oven to 375 degrees Fahrenheit (190 degrees Celsius).pestle to ground the fennel seeds. When fully grounded, add to the bowl.
 2. In a medium bowl mix together the dry ingredients: flour, and pink himalayan salt. Create a well in the middle.
@@ -84,7 +84,7 @@ When creating allergen-free treats, it is essential to choose ingredients that a
 
 **Instructions for Pie Filling**:
 
-![](public/images/recipe3.Carmel_Apple_Pie_Recipe/image1.png)![](public/images/recipe3.Carmel_Apple_Pie_Recipe/image3.png)
+![](./images/recipe3.Carmel_Apple_Pie_Recipe/image1.png)![](./images/recipe3.Carmel_Apple_Pie_Recipe/image3.png)
 
 7. Peel and core a total of six apples (three granny smith and three honeycrisp). Cut into quarters. If you do not have an apple corer. Peel and core manually, cut the apple into thin slices and then into halves. Transfer into a medium-large bowl, and start an initial dousing of lemon juice to prevent too much oxidation.
 8. In a small bowl mix together the seasonings and dry ingredients: brown sugar,cinnamon, all spice, nutmeg, ginger, and cardamom. Mix until uniform and put to the side.
@@ -93,7 +93,7 @@ When creating allergen-free treats, it is essential to choose ingredients that a
 
 **Instructions for Making Carmel**:
 
-![](public/images/recipe3.Carmel_Apple_Pie_Recipe/image6.png)
+![](./images/recipe3.Carmel_Apple_Pie_Recipe/image6.png)
 
 11. Begin warming a medium saucepan on light heat, a medium sized saucepan, add the brown sugar, vegan butter, salt, and oatmilk.
 12. Bring to a simmer over low-medium heat and whisk constantly throughout the process.
@@ -102,7 +102,7 @@ When creating allergen-free treats, it is essential to choose ingredients that a
 
 **Assembling the Applepie**:
 
-![](public/images/recipe3.Carmel_Apple_Pie_Recipe/image3.png)
+![](./images/recipe3.Carmel_Apple_Pie_Recipe/image3.png)
 
 15. This is a softer dough so you will need to work quickly. Lightly dust a clean work surface and a rolling pin with gluten-free flour, making sure the surface is cool at neutral temp. Remove one of the crusts from the fridge and begin to roll out the dough evenly, adding flour when it begins to stick. Roll until the crust is a quarter of an inch thick.
 16. Begin to spoon in the apple filling. Layer the caramel syrup between each layer of the apple filling. Set to the side when all the filling is used up and the pie is full. Do not underfill the pie as the apples will bake down in the oven.
