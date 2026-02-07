@@ -31,8 +31,8 @@ When creating allergen-free treats, it is essential to choose ingredients that a
 - **½ tsp Cinnamon**
 - **⅛ tsp cardamom**
 - **¼ tsp Fennel Seed** (Ground up)
-- **⅙ \-⅛ tsp tumeric**
-- **⅛ tsp ginger**
+- **⅙ \-⅛ tsp _tumeric_**
+- **⅛ tsp _ginger_**
 
 **Ingredients for the Cookie**:
 
@@ -50,7 +50,7 @@ When creating allergen-free treats, it is essential to choose ingredients that a
 **Instructions**:
 
 1. Preheat the oven to 375 degrees Fahrenheit (190 degrees Celsius). Line a baking sheet with parchment paper and put to the side.
-2. In a small bowl mix together the cinnamon, cardamom, turmeric, and ginger spices. Use either a spice grinder or mortar and pestle to ground the fennel seeds. When fully grounded, add to the bowl.
+2. In a small bowl mix together the cinnamon, cardamom, turmeric, and _ginger_ spices. Use either a spice grinder or mortar and pestle to ground the fennel seeds. When fully grounded, add to the bowl.
 3. In a medium bowl mix together the dry ingredients: flour, brown sugar, salt, granulated sugar, baking soda, baking powder, and the vanilla powder.
 4. In a mixer, add the wet ingredients: 1 stick plant butter, “egg” mixture, and rice milk. Blend together.
 5. Keep mixer on low power as you add in the dry ingredients to the wet ingredients–¼ cup at a time until fully mixed. Texture should be smooth, but scoopable.
