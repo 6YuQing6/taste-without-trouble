@@ -1,6 +1,6 @@
 ## **Hong-Kong Style Waffles**
 
-![](/images/recipe4.Hong_Kong_Waffles/image1.png)![](/images/recipe4.Hong_Kong_Waffles/image2.png)
+![](./images/recipe4.Hong_Kong_Waffles/image1.png)![](./images/recipe4.Hong_Kong_Waffles/image2.png)
 
 I’ve always wanted to order those iconic bubble waffles you see at boba shops. The ones that are lightly crispy on the outside, soft and chewy on the outside, and rich with that sweet eggy flavor. Unfortunately, between food restrictions and allergies, they were never an option for me. I also don't own the traditional special bubble waffle maker that is traditionally used. This recipe was created to change that and satisfy my craving for these delicious treats. Using just a standard waffle iron and carefully chosen allergen-free ingredients, this waffle mimics the delicious flavor and the texture of a classic Hong-Kong style egg waffle while still being accessible, safe, and nourishing.
 
