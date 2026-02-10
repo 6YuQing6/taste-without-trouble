@@ -1,6 +1,6 @@
 import "./App.css";
 // import ResponsiveAppBar from "./components/AppBar";
-import { Container, ThemeProvider } from "@mui/material";
+import { ThemeProvider } from "@mui/material";
 import { theme } from "./components/theme";
 import { Outlet } from "react-router";
 import ResponsiveAppBar from "./components/AppBar";
@@ -12,9 +12,8 @@ function App() {
       <ThemeProvider theme={theme}>
         <AuthProvider>
           <ResponsiveAppBar />
-          <Container>
-            <Outlet />
-          </Container>
+
+          <Outlet />
         </AuthProvider>
       </ThemeProvider>
     </>

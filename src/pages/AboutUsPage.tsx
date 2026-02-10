@@ -1,11 +1,12 @@
-import { Box } from "@mui/material";
+import { Box, Container } from "@mui/material";
+import CustomCard from "../components/Card";
 
 // import { p } from "@mui/material";
 
 const Introduction = (
   <Box textAlign="left">
     <h1>My name is Melanie Reisner-Earl</h1>
-    <div>
+    <p>
       I'm a biology student based in Pleasanton, CA, with a deep passion for the
       gut mind connection and gastrointestinal disorders. I began this mission
       in 2025 to spread awareness about GI conditions and how they impact both
@@ -16,8 +17,8 @@ const Introduction = (
       experiencing cycles of diarrhea and constipation, and dealing with throat
       and tongue swelling after eating foods like eggs and dairy. I knew
       something more was going on, but I didn't have the answers.
-    </div>
-    <div>
+    </p>
+    <p>
       In 2023, my life took a frightening turn. A mass of food became lodged in
       my throat, tearing my esophagus. I nearly lost my life as my airway began
       to close from the fluid buildup caused by choking. During my hospital stay
@@ -31,8 +32,8 @@ const Introduction = (
       comfort, became the enemy. I remembered what the Stanford doctor had said,
       and I knew I needed to get an endoscopy—there had to be more to the story
       than just “IBS.”
-    </div>
-    <div>
+    </p>
+    <p>
       My doctor was reluctant and continued insisting that my symptoms were
       nothing serious, but I kept advocating for myself. Eventually, I got the
       endoscopy I had been fighting for. The results revealed eosinophilic
@@ -47,8 +48,8 @@ const Introduction = (
       even though I was physically healing, the emotional side was difficult.
       The restrictions made eating isolating and frustrating—I couldn't enjoy
       the foods I grew up loving.
-    </div>
-    <div>
+    </p>
+    <p>
       Over time, I realized many people with GI disorders face similar
       struggles. The overlap between gut conditions and eating disorders is more
       common than people realize, and it’s something that needs to be talked
@@ -59,7 +60,7 @@ const Introduction = (
       Through sharing my story, I hope to inspire others to take their gut
       health seriously, to advocate for themselves, and to remember that
       healing—both physical and emotional—is possible.
-    </div>
+    </p>
   </Box>
 );
 /**
@@ -67,7 +68,13 @@ const Introduction = (
  * @return {div} home element
  */
 function AboutUsPage() {
-  return <div className="card">{Introduction}</div>;
+  return (
+    <Container maxWidth="xl">
+      <CustomCard sx={{ marginTop: "2rem", padding: "1rem" }}>
+        {Introduction}
+      </CustomCard>
+    </Container>
+  );
 }
 
 export default AboutUsPage;

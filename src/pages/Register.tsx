@@ -30,7 +30,7 @@ const Register = () => {
     <>
       <Container
         component="main"
-        maxWidth="xs"
+        maxWidth="lg"
         sx={{
           minHeight: "100vh",
           display: "flex",

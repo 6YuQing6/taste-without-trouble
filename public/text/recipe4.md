@@ -32,7 +32,7 @@ When creating allergen-free treats, it is essential to choose ingredients that a
 
 - **1 cup \+ 2 tbsp GF flour**
 - **1 ½ tsp of Baking Powder**
-- **“Custard Powder” sub for: 1 tbsp cornstarch+1tsp of vanilla powder+ a pinch of black salt or pink himalayan salt.**
+- **“Custard Powder” sub for: 1 tbsp cornstarch+1tsp of vanilla powder+ a pinch of _black salt_ or pink himalayan salt.**
 - **¼ cup tapioca flour or starch**
 - **¾ cup white sugar**
 - **1 tsp vanilla powder**
