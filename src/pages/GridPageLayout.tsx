@@ -1,4 +1,4 @@
-import { Box, Container, ImageList } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import { Outlet } from "react-router-dom";
 
 interface GridPageLayoutProps {
@@ -21,20 +21,13 @@ export default function GridPageLayout({
           flexGrow: 1,
           textAlign: "left",
           alignContent: "flex-start",
+          paddingBottom: "2rem",
         }}>
-        <h1>{title}</h1>
+        <h1 className="mt-4 mb-4">{title}</h1>
 
-        <ImageList
-          sx={{
-            gridTemplateColumns: {
-              xs: "repeat(1, 1fr) !important",
-              sm: "repeat(2, 1fr) !important",
-              md: "repeat(3, 1fr) !important",
-            },
-          }}>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {items.map(renderItem)}
-        </ImageList>
-
+        </div>
         <Outlet />
       </Box>
     </Container>

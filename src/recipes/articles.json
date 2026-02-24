@@ -1,14 +1,23 @@
 [
   {
     "title": "How Our Thinking of Food and Our Bodies Changes as We Age",
-    "author": "Melanie",
+    "author": "Melanie Reisner-Earl",
     "image": "https://i2.pickpik.com/photos/921/838/524/dependent-dementia-woman-old-preview.jpg",
-    "link": "article1"
+    "link": "article1",
+    "date": "2026-01-24T04:19:29.800Z"
   },
   {
-    "title": "What are Eosinophils?",
-    "author": "Melanie",
+    "title": "What is EoE?",
+    "author": "Melanie Reisner-Earl",
     "image": "https://medschool.co/images/detail/blood-film/eosinophil.jpg",
-    "link": "article2"
+    "link": "article2",
+    "date": "2026-01-24T04:19:29.800Z"
+  },
+  {
+    "title": "What is Celiac Disease?",
+    "author": "Melanie Reisner-Earl",
+    "image": "https://medlineplus.gov/ency/images/ency/fullsize/24377.jpg",
+    "link": "article3",
+    "date": "2026-01-24T04:19:29.800Z"
   }
 ]

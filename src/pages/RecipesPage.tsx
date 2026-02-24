@@ -16,6 +16,7 @@ function RecipesPage() {
           author={recipe.author}
           link={recipe.link}
           image={recipe.image}
+          date={recipe.date}
         />
       )}
     />

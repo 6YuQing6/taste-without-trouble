@@ -1,20 +1,23 @@
 [
   {
     "title": "Cozy Chai Latte Cookie",
-    "author": "Melanie",
+    "author": "Melanie Reisner-Earl",
     "image": "https://scientificallysweet.com/wp-content/uploads/2025/12/IMG_1966-vanilla-maple-chai-latte-cookies-720x835.jpg",
-    "link": "recipe1"
+    "link": "recipe1",
+    "date": "2026-01-24T04:19:29.800Z"
   },
   {
     "title": "Carmel Apple Pie",
-    "author": "Melanie",
+    "author": "Melanie Reisner-Earl",
     "image": "./images/recipe3.Carmel_Apple_Pie_Recipe/image2.png",
-    "link": "recipe3"
+    "link": "recipe3",
+    "date": "2026-01-24T04:19:29.800Z"
   },
   {
     "title": "Hong Kong Style Waffles",
-    "author": "Melanie",
+    "author": "Melanie Reisner-Earl",
     "image": "./images/recipe4.Hong_Kong_Waffles/image1.png",
-    "link": "recipe4"
+    "link": "recipe4",
+    "date": "2026-01-24T04:19:29.800Z"
   }
 ]

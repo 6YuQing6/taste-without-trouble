@@ -1,12 +1,12 @@
 ## **Carmel Apple Pie Recipe**
 
-![image title](./images/recipe3.Carmel_Apple_Pie_Recipe/image2.png)
-
 Pie crust has always been my favorite part of the pie. The flavor, the warmth, that first bite—it’s what makes pie feel special to me. However, living with dysphagia can make traditional pie crusts difficult to enjoy, especially when they are crumbly, dry, or too firm to swallow comfortably.
 
 That challenge inspired me to create a dairy-free pie crust that is both safe and enjoyable for individuals with dysphagia. This crust is soft, tender, and designed to melt in your mouth, while still delivering the initial structure, texture, and—most importantly—the classic flavor you expect from a pie crust.
 
 This caramel apple pie is a celebration of comfort food made accessible. It proves that dietary needs do not have to mean compromise. With thoughtful ingredients and intentional preparation, this recipe offers a pie that is inclusive, flavorful, and made to be truly enjoyed by everyone.
+
+![image title](./images/recipe3.Carmel_Apple_Pie_Recipe/image2.png)
 
 ## **Allergen-Free Ingredients to Consider**
 

@@ -16,6 +16,7 @@ function ArticlesPage() {
           author={article.author}
           link={article.link}
           image={article.image}
+          date={article.date}
         />
       )}
     />
