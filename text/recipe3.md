@@ -1,4 +1,4 @@
-## **Carmel Apple Pie Recipe**
+# **Carmel Apple Pie Recipe**
 
 Pie crust has always been my favorite part of the pie. The flavor, the warmth, that first bite—it’s what makes pie feel special to me. However, living with dysphagia can make traditional pie crusts difficult to enjoy, especially when they are crumbly, dry, or too firm to swallow comfortably.
 
@@ -36,44 +36,42 @@ When creating allergen-free treats, it is essential to choose ingredients that a
 - **Sea Salt:** Harvested from evaporated seawater and undergoes minimal processing, allowing it to retain natural minerals. Adequate mineral intake plays a role in stomach acid production, which is essential for proper digestion and nutrient absorption.
 - **Flake Salt:** Light, delicate texture and dissolves quickly, allowing you to use less while still enhancing flavor. Using smaller amounts of salt can help reduce digestive discomfort for individuals sensitive to high sodium intake, making flake salt a gut-conscious finishing option.
 
----
+## **Ingredients**
 
-**Ingredients**
+### **Ingredients for the Pie Crust**:
 
-**Ingredients for the Pie Crust**:
+- 1 ½ cup Gluten free flower
+- 3/4 tsp xanthan gum (If not already included in flour)
+- ½ tsp Pink Himalayan Salt
+- 6 tbsp chilled plant butter stick (grated)
+- ½ cup Crisco (All-vegetable shortening)
+- Room temperature or ice water by spoonful
 
-- **1 ½ cup Gluten free flower**
-- **3/4 tsp xanthan gum (If not already included in flour)**
-- **½ tsp Pink Himalayan Salt**
-- **6 tbsp chilled plant butter stick (grated)**
-- **½ cup Crisco (All-vegetable shortening)**
-- **Room temperature or ice water by spoonful**
+### **Ingredients for the Apple Filling**:
 
-**Ingredients for the Apple Filling**:
+- 6 apples-3 granny smith apples, 3 honeycrisp red apple
+- ¼ cup lemon juice
+- ½ cup granulated sugar
+- ¼ cup brown sugar
+- 2 tsp cinnamon
+- ¼ tsp all spice
+- ¼ tsp nutmeg
+- ⅛ tsp ginger
+- ⅛ tsp cardamom
+- 3 tbsp of pure cornstarch
 
-- **6 apples-3 granny smith apples, 3 honeycrisp red apple**
-- **¼ cup lemon juice**
-- **½ cup granulated sugar**
-- **¼ cup brown sugar**
-- **2 tsp cinnamon**
-- **¼ tsp all spice**
-- **¼ tsp nutmeg**
-- **⅛ tsp ginger**
-- **⅛ tsp cardamom**
-- **3 tbsp of pure cornstarch**
+### **Ingredients for Carmel Syrup:**
 
-**Ingredients for Carmel Syrup:**
-
-- **4 tbsp chilled vegan butter**
-- **1 cup light brown sugar**
-- **½ tsp salt**
-- **½ cup oatmilk**
-- **1 tbsp vanilla powder**
-
-**Instructions for Pie Crust**:
+- 4 tbsp chilled vegan butter
+- 1 cup light brown sugar
+- ½ tsp salt
+- ½ cup oatmilk
+- 1 tbsp vanilla powder
 
 ![](./images/recipe3.Carmel_Apple_Pie_Recipe/image4.png)![](./images/recipe3.Carmel_Apple_Pie_Recipe/image5.png)
 ![](./images/recipe3.Carmel_Apple_Pie_Recipe/image8.png)
+
+### **Instructions for Pie Crust**:
 
 1. Preheat the oven to 375 degrees Fahrenheit (190 degrees Celsius).pestle to ground the fennel seeds. When fully grounded, add to the bowl.
 2. In a medium bowl mix together the dry ingredients: flour, and pink himalayan salt. Create a well in the middle.
@@ -82,27 +80,27 @@ When creating allergen-free treats, it is essential to choose ingredients that a
 5. Form the dough into a coin shape and wrap in plastic wrap. Refrigerate for at least 30 minutes, or until dough is firmer.
 6. Repeat this exact process again so that you have a total of two dough balls–both in the fridge.
 
-**Instructions for Pie Filling**:
-
 ![](./images/recipe3.Carmel_Apple_Pie_Recipe/image1.png)![](./images/recipe3.Carmel_Apple_Pie_Recipe/image3.png)
+
+### **Instructions for Pie Filling**:
 
 7. Peel and core a total of six apples (three granny smith and three honeycrisp). Cut into quarters. If you do not have an apple corer. Peel and core manually, cut the apple into thin slices and then into halves. Transfer into a medium-large bowl, and start an initial dousing of lemon juice to prevent too much oxidation.
 8. In a small bowl mix together the seasonings and dry ingredients: brown sugar,cinnamon, all spice, nutmeg, ginger, and cardamom. Mix until uniform and put to the side.
 9. Spoon 3 tbsp of cornstarch into the bowl with the apple slices and mix. Pour in spice seasoning mixture until all layers of apples are coated evenly.
 10. Add ¼ cup of lemon juice into the bowl and mix until a creamy brown substance forms–coating the apples.
 
-**Instructions for Making Carmel**:
-
 ![](./images/recipe3.Carmel_Apple_Pie_Recipe/image6.png)
+
+### **Instructions for Making Carmel**:
 
 11. Begin warming a medium saucepan on light heat, a medium sized saucepan, add the brown sugar, vegan butter, salt, and oatmilk.
 12. Bring to a simmer over low-medium heat and whisk constantly throughout the process.
 13. Once the caramel is simmering and bubbles start to form, stir for another 8 minutes until the sauce becomes slightly thickened. (Note: it’s ok if the sauce is not fully thickened. As the sauce cools down it will begin to thicken.)
 14. Stir in the vanilla powder and then take off of heat.
 
-**Assembling the Applepie**:
-
 ![](./images/recipe3.Carmel_Apple_Pie_Recipe/image3.png)
+
+## **Assembling the Applepie**:
 
 15. This is a softer dough so you will need to work quickly. Lightly dust a clean work surface and a rolling pin with gluten-free flour, making sure the surface is cool at neutral temp. Remove one of the crusts from the fridge and begin to roll out the dough evenly, adding flour when it begins to stick. Roll until the crust is a quarter of an inch thick.
 16. Begin to spoon in the apple filling. Layer the caramel syrup between each layer of the apple filling. Set to the side when all the filling is used up and the pie is full. Do not underfill the pie as the apples will bake down in the oven.
@@ -118,7 +116,7 @@ When creating allergen-free treats, it is essential to choose ingredients that a
 - **Baking-** For a crispier crust increase the ratio of crisco to butter. Leave pie in oven at 425 degrees fahrenheit for an initial 10 minutes.
 - **Cooling-** Letting the pie cool overnight is actually ideal. It gives a chance for the pie crust to firm, caramel to thicken, and spices to be absorbed into the apples.
 
-**Embracing Allergen-Free Living**
+## **Embracing Allergen-Free Living**
 
 Living with food allergies or sensitivities can be challenging, but it does not mean you have to sacrifice flavor or enjoyment. By exploring allergen-free ingredients and recipes, you can create delicious treats that support your gut health.
 
