@@ -48,7 +48,7 @@ function Home() {
         {/* Posts + Sidebar Layout */}
         <div className="mt-4 p-4 grid grid-cols-1 lg:grid-cols-3 gap-10">
           {/* LEFT — Posts (2/3) */}
-          <div className="lg:col-span-2 space-y-10">
+          <div className="order-2 lg:order-1 lg:col-span-2 space-y-10">
             {filteredItems.map((item) => (
               <Post
                 key={item.link}
@@ -63,7 +63,7 @@ function Home() {
           </div>
 
           {/* RIGHT — Search / Filter (1/3) */}
-          <div className="lg:col-span-1">
+          <div className="order-1 lg:order-2 lg:col-span-1">
             <div className="sticky top-24 p-6 bg-white rounded-xl outline-1 outline-gray-300">
               <h2 className="text-xl font-semibold mb-4">Search Posts</h2>
               <select

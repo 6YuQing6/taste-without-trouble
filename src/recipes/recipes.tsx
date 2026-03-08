@@ -51,7 +51,7 @@ import ingredients from "./ingredients.json";
 export function getIngredients(): Record<
   string,
   {
-    description: string[];
+    description?: string[];
     summarized_description: string;
   }
 > {

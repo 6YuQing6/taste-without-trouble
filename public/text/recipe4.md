@@ -26,7 +26,7 @@ When creating allergen-free treats, it is essential to choose ingredients that a
 - **Almond Milk**: A popular dairy alternative, almond milk is low in calories and can be used in smoothies and baking.
 - **Rice Milk:** Light and mildly sweet, rice milk is a gentle dairy alternative that works well in cereals, smoothies, and dessert.
 
-**Ingredients**
+## **Ingredients**
 
 **Dry Ingredients**:
 
@@ -43,7 +43,7 @@ When creating allergen-free treats, it is essential to choose ingredients that a
 - **2 tbsp nondairy vanilla yogurt**
 - **½ cup \+ 2 tbsp water**
 
-**Instructions**:
+## **Instructions**:
 
 1. In a separate bowl, mix the GF flour, baking powder, “custard powder” mix, white sugar, and tapioca flour. Move to the side when mixed.
 2. In a small bowl, add the arrowroot for the egg substitute, dairy-free vanilla yogurt. Mix together until a uniform white substance forms.

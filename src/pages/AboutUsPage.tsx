@@ -1,78 +1,100 @@
-import { Box, Container } from "@mui/material";
-import CustomCard from "../components/Card";
+import { Container } from "@mui/material";
 
-// import { p } from "@mui/material";
-
-const Introduction = (
-  <Box textAlign="left">
-    <h1>My name is Melanie Reisner-Earl</h1>
-    <p>
-      I'm a biology student based in Pleasanton, CA, with a deep passion for the
-      gut mind connection and gastrointestinal disorders. I began this mission
-      in 2025 to spread awareness about GI conditions and how they impact both
-      physical and mental health. As a child, I struggled with severe dysphagia
-      and unexplained gastrointestinal issues. Doctors often dismissed my
-      symptoms, attributing them to a “sensitive stomach,” IBS, or family
-      history. Yet, everyday life felt like a constant battle—choking on food,
-      experiencing cycles of diarrhea and constipation, and dealing with throat
-      and tongue swelling after eating foods like eggs and dairy. I knew
-      something more was going on, but I didn't have the answers.
-    </p>
-    <p>
-      In 2023, my life took a frightening turn. A mass of food became lodged in
-      my throat, tearing my esophagus. I nearly lost my life as my airway began
-      to close from the fluid buildup caused by choking. During my hospital stay
-      and the removal of the obstruction, a gastroenterologist at Stanford
-      suggested I undergo an endoscopy, explaining that many patients were
-      showing immune-related signs in the esophagus. That experience left me
-      deeply traumatized and, for the first time, afraid of food. When I entered
-      college, that fear evolved into a restrictive eating disorder. During
-      recovery, I began throwing up after certain foods and noticed that my body
-      no longer tolerated meals the way it once had. Food, which used to bring
-      comfort, became the enemy. I remembered what the Stanford doctor had said,
-      and I knew I needed to get an endoscopy—there had to be more to the story
-      than just “IBS.”
-    </p>
-    <p>
-      My doctor was reluctant and continued insisting that my symptoms were
-      nothing serious, but I kept advocating for myself. Eventually, I got the
-      endoscopy I had been fighting for. The results revealed eosinophilic
-      esophagitis (EoE), a chronic immune condition characterized by
-      inflammation in the esophagus. My biopsy showed basilar hyperplasia,
-      severe esophagitis with over 100 eosinophils per high-power field, and
-      eosinophilic microabscess formation—all consistent with EoE. I was also
-      diagnosed with dysphagia. That diagnosis changed everything. I learned
-      that cutting out trigger foods like soy, egg, dairy, and gluten could help
-      manage EoE and allow my body to heal. After making these changes, I
-      stopped getting sick after meals and finally felt my body recovering. But
-      even though I was physically healing, the emotional side was difficult.
-      The restrictions made eating isolating and frustrating—I couldn't enjoy
-      the foods I grew up loving.
-    </p>
-    <p>
-      Over time, I realized many people with GI disorders face similar
-      struggles. The overlap between gut conditions and eating disorders is more
-      common than people realize, and it’s something that needs to be talked
-      about. That’s why I started creating allergen-friendly, gut-friendly
-      recipes—meals that are both safe and enjoyable. My goal is to raise
-      awareness about the growing number of gastrointestinal disorders among
-      young people and how easily they can evolve into disordered eating.
-      Through sharing my story, I hope to inspire others to take their gut
-      health seriously, to advocate for themselves, and to remember that
-      healing—both physical and emotional—is possible.
-    </p>
-  </Box>
-);
-/**
- *
- * @return {div} home element
- */
 function AboutUsPage() {
   return (
-    <Container maxWidth="xl">
-      <CustomCard sx={{ marginTop: "2rem", padding: "1rem" }}>
-        {Introduction}
-      </CustomCard>
+    <Container maxWidth="lg">
+      <div className="m-2 pt-4">
+        <div className="pb-2 w-full border-b border-gray-200 mb-10">
+          <h1> About the Team </h1>
+        </div>
+        <div className="grid md:grid-cols-12 gap-10 items-start">
+          {/* LEFT COLUMN (Image) */}
+          <div className="md:col-span-4 flex justify-center md:justify-start  md:sticky md:top-24">
+            <img
+              src="./images/profile_pic.png"
+              alt="Melanie Reisner-Earl"
+              loading="lazy"
+              className="w-auto h-auto object-cover rounded-lg"
+            />
+          </div>
+
+          {/* RIGHT COLUMN (Text Content) */}
+          <div className="md:col-span-8 space-y-2 text-left">
+            <h2 className="text-3xl font-bold pt-1">Melanie Reisner-Earl</h2>
+
+            <h4 className="text-lg text-gray-600 font-medium">
+              Biology Student & Gut Health Advocate
+            </h4>
+            <div className=" md:max-h-[50vh] md:overflow-y-auto space-y-4 text-left">
+              <p>
+                I'm a biology student based in Pleasanton, CA, with a deep
+                passion for the gut mind connection and gastrointestinal
+                disorders. I began this mission in 2025 to spread awareness
+                about GI conditions and how they impact both physical and mental
+                health. As a child, I struggled with severe dysphagia and
+                unexplained gastrointestinal issues. Doctors often dismissed my
+                symptoms, attributing them to a “sensitive stomach,” IBS, or
+                family history.
+              </p>
+
+              <p>
+                Yet everyday life felt like a constant battle—choking on food,
+                experiencing cycles of diarrhea and constipation, and dealing
+                with throat and tongue swelling after eating foods like eggs and
+                dairy. I knew something more was going on, but I didn't have the
+                answers.
+              </p>
+
+              <p>
+                In 2023, my life took a frightening turn. A mass of food became
+                lodged in my throat, tearing my esophagus. I nearly lost my life
+                as my airway began to close from the fluid buildup caused by
+                choking. During my hospital stay, a gastroenterologist at
+                Stanford suggested I undergo an endoscopy after noticing
+                immune-related signs in the esophagus.
+              </p>
+
+              <p>
+                That experience left me deeply traumatized and, for the first
+                time, afraid of food. When I entered college, that fear evolved
+                into a restrictive eating disorder. During recovery, I began
+                throwing up after certain foods and noticed that my body no
+                longer tolerated meals the way it once had.
+              </p>
+
+              <p>
+                Eventually I pushed for an endoscopy, and the results revealed
+                eosinophilic esophagitis (EoE), a chronic immune condition
+                characterized by inflammation in the esophagus. My biopsy showed
+                basilar hyperplasia, severe esophagitis with over 100
+                eosinophils per high-power field, and eosinophilic microabscess
+                formation.
+              </p>
+
+              <p>
+                I learned that eliminating trigger foods like soy, egg, dairy,
+                and gluten could help manage EoE and allow my body to heal.
+                Physically I improved, but emotionally it was difficult because
+                food restrictions can be isolating.
+              </p>
+
+              <p>
+                Over time, I realized many people with GI disorders face similar
+                struggles. That’s why I started creating allergen-friendly,
+                gut-friendly recipes—meals that are safe and enjoyable. My goal
+                is to raise awareness about GI disorders among young people and
+                how they intersect with eating disorders.
+              </p>
+
+              <p>
+                Through sharing my story, I hope to inspire others to advocate
+                for their health and remember that healing—both physical and
+                emotional—is possible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </Container>
   );
 }

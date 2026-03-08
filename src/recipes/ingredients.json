@@ -9,7 +9,6 @@
     ],
     "summarized_description": "A powerful antioxidant-rich spice from the ginger family that supports digestion, joint and pain relief, gut and skin health, and may help reduce inflammation and disease-related risks through its active compound curcumin."
   },
-
   "ginger": {
     "description": [
       "Studies show that ginger may play a huge role in allergy relief for asthmatic individuals and those with skin allergies, significantly reducing pruritus by reducing C-reactive protein levels.",
@@ -20,25 +19,28 @@
     ],
     "summarized_description": "A versatile root known for reducing inflammation, easing nausea, supporting blood sugar and blood pressure balance, relieving allergy and IBS symptoms, and promoting overall healthy aging."
   },
-
   "fennel seed": {
     "description": [
       "Fennel seeds can relieve antispasmodic effects that come with periods, perimenopause and menopause."
     ],
     "summarized_description": "A natural antispasmodic that helps ease menstrual discomfort and supports hormonal transitions during perimenopause and menopause."
   },
-
   "black salt": {
     "description": [
       "Mimics an eggy and savory flavor and scent. Fantastic for vegetarian and vegan dishes and a great source of detoxifying agents."
     ],
     "summarized_description": "Mimics an eggy and savory flavor and scent. Fantastic for vegetarian and vegan dishes and a great source of detoxifying agents."
   },
-
   "candida": {
     "description": [
       "A fungal infection or overgrowth in yeast that can take place in the mouth, esophagus, stomach, or vagina."
     ],
     "summarized_description": "A fungal infection or overgrowth in yeast that can take place in the mouth, esophagus, stomach, or vagina."
+  },
+  "disulfide bonds": {
+    "summarized_description": "Covalent bonds that support the protein's structure."
+  },
+  "antibodies": {
+    "summarized_description": "Auto-antibodies"
   }
 }

@@ -18,18 +18,11 @@ export default function Post({
     month: "long",
     day: "numeric",
   };
-  const formattedType =
-    type.toLowerCase() === "recipe"
-      ? "recipes"
-      : type.toLowerCase() === "article"
-        ? "articles"
-        : "";
-
-  const fullPath = formattedType ? `/${formattedType}/${link}` : `/${link}`;
+  const hashPath = `/${type.toLowerCase()}s/${link}`;
   return (
     <li className="w-full border-b border-gray-200 pb-10 mb-10 list-none">
       <Link
-        to={fullPath}
+        to={hashPath}
         className="group flex flex-col md:flex-row md:items-center md:gap-8">
         {/* Text Content (LEFT) */}
         <div className="flex-1 order-2 md:order-1 mt-6 md:mt-0">

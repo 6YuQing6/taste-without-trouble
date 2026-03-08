@@ -1,7 +1,6 @@
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import FlatwareIcon from "@mui/icons-material/Flatware";
 import { Box, IconButton, Menu, MenuItem } from "@mui/material";
 import { Button } from "@mui/material";
@@ -83,15 +82,9 @@ export default function ResponsiveAppBar() {
           display: { xs: "flex", sm: "flex" },
         }}
       />
-      <Typography
-        variant="h5"
-        sx={{
-          display: { sm: "flex" },
-          fontWeight: 700,
-          color: "inherit",
-        }}>
+      <h5 className="sm:flex font-bold text-lg tracking-tight">
         Taste Without Trouble
-      </Typography>
+      </h5>
     </Button>
   );
 
@@ -164,7 +157,7 @@ export default function ResponsiveAppBar() {
             component={Link}
             onClick={handleCloseNavMenu}
             to={`/${page.toLowerCase()}`}>
-            <Typography sx={{ textAlign: "center" }}>{page}</Typography>
+            <h4>{page}</h4>
           </MenuItem>
         ))}
       </Menu>

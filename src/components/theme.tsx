@@ -27,6 +27,9 @@ export const theme = createTheme({
     fontFamily: "SN Pro",
     fontWeightRegular: 500,
     fontWeightMedium: 600,
+    button: {
+      textTransform: "none",
+    },
   },
   components: {
     MuiButton: {
